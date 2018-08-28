@@ -1,6 +1,6 @@
 require 'request_store'
 
-Spree::StoreController.class_eval do
+Spree::BaseController.class_eval do
   before_action :set_current_info
 
   def set_current_currency
