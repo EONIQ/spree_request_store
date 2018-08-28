@@ -1,3 +1,5 @@
 require 'spree_core'
 require 'spree_extension'
 require 'request_store'
+require 'spree_request_store/engine'
+require 'spree_request_store/version'

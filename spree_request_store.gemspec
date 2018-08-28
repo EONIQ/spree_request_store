@@ -8,16 +8,16 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_request_store'
   s.version     = SpreeRequestStore.version
-  s.summary     = 'Add extension summary here'
-  s.description = 'Add (optional) extension description here'
+  s.summary     = 'Provide current user, current store and current currency method by using RequestStore'
+  s.description = '-'
   s.required_ruby_version = '>= 2.2.7'
 
-  s.author    = 'You'
-  s.email     = 'you@example.com'
-  s.homepage  = 'https://github.com/your-github-handle/spree_request_store'
+  s.author    = 'Charles Wong'
+  s.email     = 'charles@eoniq.co'
+  s.homepage  = 'https://github.com/EONIQ/spree_request_store'
   s.license = 'BSD-3-Clause'
 
-  # s.files       = `git ls-files`.split("\n").reject { |f| f.match(/^spec/) && !f.match(/^spec\/fixtures/) }
+  s.files        = Dir['README.md', 'lib/**/*']
   s.require_path = 'lib'
   s.requirements << 'none'
 
