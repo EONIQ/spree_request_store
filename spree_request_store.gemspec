@@ -21,11 +21,11 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 3.1.0'
-  s.add_dependency 'spree_multi_currency', '~> 2.0.0'
-  s.add_dependency 'spree_multi_domain', '~> 3.0.5'
-  s.add_dependency 'spree_auth_devise', '~> 3.3.3'
-  s.add_dependency 'request_store', '~> 1.4.1'
+  s.add_dependency 'spree_core'
+  s.add_dependency 'spree_multi_currency'
+  s.add_dependency 'spree_multi_domain'
+  s.add_dependency 'spree_auth_devise'
+  s.add_dependency 'request_store'
   s.add_dependency 'spree_extension'
 
   s.add_development_dependency 'capybara'
