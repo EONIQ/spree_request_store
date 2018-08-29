@@ -10,7 +10,7 @@ module SpreeRequestStore
   module VERSION
     MAJOR = 3
     MINOR = 1
-    TINY  = 4
+    TINY  = 5
 
     STRING = [MAJOR, MINOR, TINY].compact.join('.')
   end
